@@ -10,7 +10,7 @@ const Jumbotron = () => {
         <div className="column column__left column__gap1">
           <div className="column column__left">
             <div className="sh1 t__uc oswald l__s1">I am momna ijaz</div>
-            <div className="h1 t__uc oswald f__w1">Software developer</div>
+            <div className="h1 t__uc oswald f__w1">Frontend web developer</div>
           </div>
           <Button
             className="btn"

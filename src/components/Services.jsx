@@ -1,5 +1,16 @@
 import { useGlobalContext } from "../context/Context";
-import { FaReact, FaNode, FaGit } from "react-icons/fa";
+import {
+  FaReact,
+  FaNode,
+  FaGit,
+  FaHtml5,
+  FaCss3,
+  FaJs,
+  FaYarn,
+  FaNpm,
+  FaGithub,
+  FaFigma,
+} from "react-icons/fa";
 
 const Services = () => {
   const { servicesRef } = useGlobalContext();
@@ -15,10 +26,28 @@ const Services = () => {
             <FaReact />
           </div>
           <div className="services__entry">
-            <FaNode />
+            <FaHtml5 />
           </div>
           <div className="services__entry">
             <FaGit />
+          </div>
+          <div className="services__entry">
+            <FaCss3 />
+          </div>
+          <div className="services__entry">
+            <FaJs />
+          </div>
+          <div className="services__entry">
+            <FaYarn />
+          </div>
+          <div className="services__entry">
+            <FaNpm />
+          </div>
+          <div className="services__entry">
+            <FaGithub />
+          </div>
+          <div className="services__entry">
+            <FaFigma />
           </div>
         </div>
       </div>

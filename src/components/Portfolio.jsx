@@ -1,6 +1,8 @@
 import { useGlobalContext } from "../context/Context";
-import adoptPetImg from "../assets/adopt-a-pet.jpeg";
-import portfolio1Img from "../assets/portfolio-1.jpeg";
+import portfolio from "../assets/portfolio.png";
+import airbnb from "../assets/airbnb.png";
+import floristShop from "../assets/floristShop.png";
+import coffeeShop from "../assets/coffeeShop.png";
 
 const Portfolio = () => {
   const { portfolioRef } = useGlobalContext();
@@ -16,16 +18,30 @@ const Portfolio = () => {
             <a
               className="gallery__entry"
               target="_blank"
-              href="https://github.com/Momna533/portfolio-1"
+              href="https://github.com/Momna533/portfolio"
             >
-              <img src={adoptPetImg} alt="gallery" />
+              <img src={portfolio} alt="gallery" />
             </a>
             <a
               className="gallery__entry"
               target="_blank"
-              href="https://github.com/Momna533/adopt-a-pet"
+              href="https://github.com/Momna533/landing-page"
             >
-              <img src={portfolio1Img} alt="gallery" />
+              <img src={coffeeShop} alt="gallery" />
+            </a>
+            <a
+              className="gallery__entry"
+              target="_blank"
+              href="https://github.com/Momna533/airbnb-clone"
+            >
+              <img src={airbnb} alt="gallery" />
+            </a>
+            <a
+              className="gallery__entry"
+              target="_blank"
+              href="https://github.com/Momna533/landingPage-floristShop"
+            >
+              <img src={floristShop} alt="gallery" />
             </a>
           </div>
         </div>

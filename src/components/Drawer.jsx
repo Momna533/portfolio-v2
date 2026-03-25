@@ -1,10 +1,10 @@
 import { useGlobalContext } from "../context/Context";
 import { IoMdClose } from "react-icons/io";
-import home from "../assets/home.jpg";
-import portfolio from "../assets/about.jpg";
-import contact from "../assets/services.jpg";
-import services from "../assets/portfolio.jpg";
-import about from "../assets/contact.jpg";
+import home_icon_mobile from "../assets/home_icon_mobile.png";
+import about_icon_mobile from "../assets/about_icon_mobile.png";
+import services_icon_mobile from "../assets/services_icon_mobile.png";
+import portfolio_icon_mobile from "../assets/portfolio_icon_mobile.png";
+import contact_icon_mobile from "../assets/contact_icon_mobile.png";
 import Button from "./Button";
 
 const Drawer = () => {
@@ -29,27 +29,27 @@ const Drawer = () => {
           <div className="drawer__nav__content">
             <div className="drawer__nav__link" onClick={closeDrawer}>
               <a onClick={() => handleScrollToSection(homeRef)}>
-                <img src={home} alt="home" />
+                <img src={home_icon_mobile} alt="home" />
               </a>
             </div>
             <div className="drawer__nav__link" onClick={closeDrawer}>
               <a onClick={() => handleScrollToSection(aboutRef)}>
-                <img src={about} alt="about" />
+                <img src={about_icon_mobile} alt="about" />
               </a>
             </div>
             <div className="drawer__nav__link" onClick={closeDrawer}>
               <a onClick={() => handleScrollToSection(servicesRef)}>
-                <img src={services} alt="services" />
+                <img src={services_icon_mobile} alt="services" />
               </a>
             </div>
             <div className="drawer__nav__link" onClick={closeDrawer}>
               <a onClick={() => handleScrollToSection(portfolioRef)}>
-                <img src={portfolio} alt="portfolio" />
+                <img src={portfolio_icon_mobile} alt="portfolio" />
               </a>
             </div>
             <div className="drawer__nav__link" onClick={closeDrawer}>
               <a onClick={() => handleScrollToSection(contactRef)}>
-                <img src={contact} alt="contact" />
+                <img src={contact_icon_mobile} alt="contact" />
               </a>
             </div>
           </div>

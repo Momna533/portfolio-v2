@@ -1,47 +1,43 @@
 import Button from "./Button";
-import { FaFacebookF, FaTwitter, FaInstagram, FaGithub } from "react-icons/fa";
+import { FaInstagram, FaGithub, FaTiktok, FaLinkedin } from "react-icons/fa";
 
 const FooterSocialLinks = () => {
   return (
     <div className="row column__gap1 row__wrap">
       <div className="footer__social__link row">
         <Button
-          varient="link"
           target="_blank"
-          href="https://www.facebook.com"
-          className="row"
+          href="https://www.instagram.com/momna_ijaz_/"
+          varient="link"
         >
-          <FaFacebookF className="footer__social__icon" />
+          <FaInstagram className="home__social__icon" />
         </Button>
       </div>
       <div className="footer__social__link row">
         <Button
-          varient="link"
           target="_blank"
-          href="https://www.twitter.com"
-          className="row"
+          href="https://www.linkedin.com/in/momna-ijaz-951760398/"
+          varient="link"
         >
-          <FaTwitter className="footer__social__icon" />
+          <FaLinkedin className="home__social__icon" />
         </Button>
       </div>
       <div className="footer__social__link row">
         <Button
-          varient="link"
           target="_blank"
-          href="https://www.instagram.com/momna00000"
-          className="row"
+          href="https://github.com/Momna533"
+          varient="link"
         >
-          <FaInstagram className="footer__social__icon" />
+          <FaGithub className="home__social__icon" />
         </Button>
       </div>
       <div className="footer__social__link row">
         <Button
-          varient="link"
           target="_blank"
-          href="https://www.github.com/momna533"
-          className="row"
+          href="https://www.tiktok.com/@momna_ijaz"
+          varient="link"
         >
-          <FaGithub className="footer__social__icon" />
+          <FaTiktok className="home__social__icon" />
         </Button>
       </div>
     </div>

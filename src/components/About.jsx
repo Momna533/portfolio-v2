@@ -1,4 +1,4 @@
-import aboutRight from "../assets/aboutRight.png";
+import aboutRight from "../assets/aboutRight.jpg";
 import { useGlobalContext } from "../context/Context";
 import Button from "./Button";
 
@@ -9,9 +9,7 @@ const About = () => {
       <div className="container__content row">
         <div className="about__content__left">
           <div className="column column__left">
-            <div className="sh2 f__w2 grey1">
-              Expert Web and Mobile developer
-            </div>
+            <div className="sh2 f__w2 grey1">Expert Frontend Web Developer</div>
             <div className="h3 f__w2 oswald">About Me</div>
             <div className="about__line"></div>
           </div>

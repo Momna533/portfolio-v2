@@ -31,6 +31,7 @@ const Header = () => {
           <div className="nav__content">
             <div className="nav__link">
               <Button
+                title="Home"
                 className={activeLink === "home" ? "active" : ""}
                 onClick={() => {
                   handleScrollToSection(homeRef);
@@ -42,6 +43,7 @@ const Header = () => {
             </div>
             <div className="nav__link">
               <Button
+                title="About"
                 className={activeLink === "about" ? "active" : ""}
                 onClick={() => {
                   handleScrollToSection(aboutRef);
@@ -52,6 +54,7 @@ const Header = () => {
             </div>
             <div className="nav__link">
               <Button
+                title="Services"
                 className={activeLink === "services" ? "active" : ""}
                 onClick={() => {
                   handleScrollToSection(servicesRef);
@@ -62,6 +65,7 @@ const Header = () => {
             </div>
             <div className="nav__link">
               <Button
+                title="Portfolio"
                 className={activeLink === "portfolio" ? "active" : ""}
                 onClick={() => {
                   handleScrollToSection(portfolioRef);
@@ -72,6 +76,7 @@ const Header = () => {
             </div>
             <div className="nav__link">
               <Button
+                title="Contact"
                 className={activeLink === "contact" ? "active" : ""}
                 onClick={() => {
                   handleScrollToSection(contactRef);
