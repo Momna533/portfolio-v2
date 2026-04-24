@@ -20,7 +20,7 @@ const SocialLinks = () => {
         <div className="home__social__link">
           <Button
             target="_blank"
-            href="https://www.linkedin.com/in/momna-ijaz-951760398/"
+            href="https://www.linkedin.com/in/momnaijaz/"
             varient="link"
           >
             <FaLinkedin className="home__social__icon" />
