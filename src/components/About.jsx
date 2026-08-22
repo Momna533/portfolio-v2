@@ -34,9 +34,6 @@ const About = () => {
           >
             Download CV
           </Button>
-          {/* <a className="btn" onClick={() => handleScrollToSection(contactRef)}>
-            Download CV
-          </a> */}
         </div>
         <div className="about__content__right">
           <img src={aboutRight} alt="about" />

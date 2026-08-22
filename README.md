@@ -58,6 +58,6 @@ live-server
 Add screenshots of your hero section, about section, and project showcase here.
 
 📬 Contact
-Email: momnadev533@gmail.com
+Email: momna533@gmail.com
 
 GitHub:https://github.com/Momna533
